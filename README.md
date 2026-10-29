@@ -70,7 +70,7 @@ await Keyboard.set_options_async(number_row=True, haptics=False)
 | iOS | Not yet. iOS keyboards are app extensions, which this version does not add. `status_async()` returns `supported: False`, `open_settings_async()` opens your app's page in Settings, `get_options_async()` returns the defaults, and `show_picker_async()` / `set_options_async()` raise `NotSupportedError`. |
 | Web page and desktop window (`pyxpo run web` / `pyxpo run desktop`), Mac Catalyst, Windows | No keyboard. Every call returns the defaults and does nothing (see [Web and desktop](#web-and-desktop)). |
 
-Requires Python 3.9+ and `pyxpo>=0.1.0a2`.
+Requires Python 3.9+ and `pyxpo>=0.1.0a6`.
 
 ## Install
 

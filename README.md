@@ -1,5 +1,7 @@
 # pyxpo-keyboard
 
+[![CI](https://github.com/pyxpo/pyxpo-keyboard/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-keyboard/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A system keyboard for [pyxpo](https://github.com/pyxpo/pyxpo) apps. Add this module and your Android app ships its
 own keyboard. People can turn it on in Settings and type with it in every app on the phone. The keys are drawn and
 handled in native Kotlin, so typing never waits for Python. Your app gets a few small calls to walk people through

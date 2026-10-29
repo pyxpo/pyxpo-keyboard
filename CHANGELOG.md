@@ -2,6 +2,8 @@
 
 ## 0.1.0a1 (unreleased)
 
+- Moved to its own repository, github.com/pyxpo/pyxpo-keyboard, with CI on Python 3.9 and 3.12 and releases from tags.
+- Added a security policy, a contributing guide and issue templates.
 - First release. Android: a system keyboard (`InputMethodService`) with native QWERTY, symbol, number and phone
   layouts, shift and caps lock, long-press alternates, delete repeat, double-space period, auto-capitals, the
   editor's enter action, a switch-keyboard key and an emoji panel. Password, PIN and incognito fields are marked
